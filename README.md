@@ -30,18 +30,24 @@
 
 ### 3. 工程化配套
 - 每题文件顶部注释：题目、思路、时间/空间复杂度
-- `tools/scan_and_gen_readme.py`：自动扫描所有文件，更新README中的题目索引表格
+- `tools/gen_readme.py`：自动扫描所有文件，更新README中的题目索引表格
 - 使用：每次新增题解后，运行脚本即可自动同步目录
 
 ## 项目结构
 
-/LinkedList    链表相关
-/Tree           树相关
-/Graph          图论
-/DP             动态规划
-/Sorting        排序算法
-/tools          Python自动化脚本
-README.md       本文件（Python脚本自动更新索引表格）
+```
+Algorithm-Lab/
+├─ 01-sort/          排序算法
+├─ 02-search/        查找算法
+├─ 03-linked-list/   链表
+├─ 04-stack-queue/   栈、队列
+├─ 05-tree/          各类树结构
+├─ 06-graph/         图论
+├─ 07-dp/            动态规划
+├─ LeetCode/         日常刷题专区
+├─ tools/            Python自动化脚本
+└─ README.md
+```
 
 ## Python自动化脚本说明
 
@@ -51,4 +57,16 @@ README.md       本文件（Python脚本自动更新索引表格）
 - 自动更新README中的题目索引表格
 
 运行方式：
-python3 tools/scan_and_gen_readme.py
+```bash
+python3 tools/gen_readme.py
+```
+
+## 📋 题目索引
+
+<!-- PROBLEM_TABLE_START -->
+| # | 题目 | 分类 | 时间复杂度 | 空间复杂度 | 文件路径 |
+|---|------|------|-----------|-----------|---------|
+| 1 | 快速排序 (Quick Sort) | 排序 | O(n log n) | O(log n) | `01-sort/quick_sort.cpp` |
+| 2 | 3399. 字符相同的最短子字符串 II (Shortest Substring With Same Character II) | 二分搜索 | O(n log n) | O(1) | `02-search/LeetCode_3399.cpp` |
+
+<!-- PROBLEM_TABLE_END -->
