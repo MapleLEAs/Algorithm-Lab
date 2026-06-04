@@ -68,5 +68,8 @@ python3 tools/gen_readme.py
 |---|------|------|-----------|-----------|---------|
 | 1 | 快速排序 (Quick Sort) | 排序 | O(n log n) | O(log n) | `01-sort/quick_sort.cpp` |
 | 2 | 3399. 字符相同的最短子字符串 II (Shortest Substring With Same Character II) | 二分搜索 | O(n log n) | O(1) | `02-search/LeetCode_3399.cpp` |
+| 3 | 反转链表 (Reverse Linked List) | 链表 | O(n) | O(1) | `03-linked-list/linked-list.cpp` |
+| 4 | 二叉树的前序遍历 (Binary Tree Preorder Traversal) | 树 | O(n) | O(h)，h 为树高 | `05-tree/treepreorder.cpp` |
+| 5 | 最长公共子序列 (Longest Common Subsequence) | 动态规划 | O(m * n) | O(m * n) | `07-dp/dplcs.cpp` |
 
 <!-- PROBLEM_TABLE_END -->
