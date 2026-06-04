@@ -68,8 +68,10 @@ python3 tools/gen_readme.py
 |---|------|------|-----------|-----------|---------|
 | 1 | 快速排序 (Quick Sort) | 排序 | O(n log n) | O(log n) | `01-sort/quick_sort.cpp` |
 | 2 | 3399. 字符相同的最短子字符串 II (Shortest Substring With Same Character II) | 二分搜索 | O(n log n) | O(1) | `02-search/LeetCode_3399.cpp` |
-| 3 | 反转链表 (Reverse Linked List) | 链表 | O(n) | O(1) | `03-linked-list/linked-list.cpp` |
-| 4 | 二叉树的前序遍历 (Binary Tree Preorder Traversal) | 树 | O(n) | O(h)，h 为树高 | `05-tree/treepreorder.cpp` |
-| 5 | 最长公共子序列 (Longest Common Subsequence) | 动态规划 | O(m * n) | O(m * n) | `07-dp/dplcs.cpp` |
+| 3 | 最小稳定子数组长度 (Min Stable Subarray Length) | 二分查找 | O(n * log n * log V)，V 为数组最大值 | O(log V) | `02-search/LeetCode_3605数字的最小稳定因子.cpp` |
+| 4 | 最小化每日刷题负担 (Minimize Daily Problem Load) | 二分查找 | O(n log S)，S 为总耗时 | O(1) | `02-search/LeetCode_LCP 12小张刷题计划.cpp` |
+| 5 | 反转链表 (Reverse Linked List) | 链表 | O(n) | O(1) | `03-linked-list/linked-list.cpp` |
+| 6 | 二叉树的前序遍历 (Binary Tree Preorder Traversal) | 树 | O(n) | O(h)，h 为树高 | `05-tree/treepreorder.cpp` |
+| 7 | 最长公共子序列 (Longest Common Subsequence) | 动态规划 | O(m * n) | O(m * n) | `07-dp/dplcs.cpp` |
 
 <!-- PROBLEM_TABLE_END -->
