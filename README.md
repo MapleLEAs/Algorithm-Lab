@@ -72,6 +72,7 @@ python3 tools/gen_readme.py
 | 4 | 最小化每日刷题负担 (Minimize Daily Problem Load) | 二分查找 | O(n log S)，S 为总耗时 | O(1) | `02-search/LeetCode_LCP 12小张刷题计划.cpp` |
 | 5 | 反转链表 (Reverse Linked List) | 链表 | O(n) | O(1) | `03-linked-list/linked-list.cpp` |
 | 6 | 二叉树的前序遍历 (Binary Tree Preorder Traversal) | 树 | O(n) | O(h)，h 为树高 | `05-tree/treepreorder.cpp` |
-| 7 | 最长公共子序列 (Longest Common Subsequence) | 动态规划 | O(m * n) | O(m * n) | `07-dp/dplcs.cpp` |
+| 7 | 岛屿数量 (Number of Islands) | 图 | O(m * n) | O(m * n)（递归栈） | `06-graph/num_islands.cpp` |
+| 8 | 最长公共子序列 (Longest Common Subsequence) | 动态规划 | O(m * n) | O(m * n) | `07-dp/dplcs.cpp` |
 
 <!-- PROBLEM_TABLE_END -->
