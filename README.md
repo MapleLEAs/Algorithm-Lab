@@ -67,12 +67,17 @@ python3 tools/gen_readme.py
 | # | 题目 | 分类 | 时间复杂度 | 空间复杂度 | 文件路径 |
 |---|------|------|-----------|-----------|---------|
 | 1 | 快速排序 (Quick Sort) | 排序 | O(n log n) | O(log n) | `01-sort/quick_sort.cpp` |
-| 2 | 3399. 字符相同的最短子字符串 II (Shortest Substring With Same Character II) | 二分搜索 | O(n log n) | O(1) | `02-search/LeetCode_3399.cpp` |
-| 3 | 最小稳定子数组长度 (Min Stable Subarray Length) | 二分查找 | O(n * log n * log V)，V 为数组最大值 | O(log V) | `02-search/LeetCode_3605数字的最小稳定因子.cpp` |
-| 4 | 最小化每日刷题负担 (Minimize Daily Problem Load) | 二分查找 | O(n log S)，S 为总耗时 | O(1) | `02-search/LeetCode_LCP 12小张刷题计划.cpp` |
-| 5 | 反转链表 (Reverse Linked List) | 链表 | O(n) | O(1) | `03-linked-list/linked-list.cpp` |
-| 6 | 二叉树的前序遍历 (Binary Tree Preorder Traversal) | 树 | O(n) | O(h)，h 为树高 | `05-tree/treepreorder.cpp` |
-| 7 | 岛屿数量 (Number of Islands) | 图 | O(m * n) | O(m * n)（递归栈） | `06-graph/num_islands.cpp` |
-| 8 | 最长公共子序列 (Longest Common Subsequence) | 动态规划 | O(m * n) | O(m * n) | `07-dp/dplcs.cpp` |
+| 2 | 搜索旋转排序数组 (Search in Rotated Sorted Array) | 二分查找 | O(log n) | O(1) | `02-search/02-search.cpp` |
+| 3 | 3399. 字符相同的最短子字符串 II (Shortest Substring With Same Character II) | 二分搜索 | O(n log n) | O(1) | `02-search/LeetCode_3399.cpp` |
+| 4 | 最小稳定子数组长度 (Min Stable Subarray Length) | 二分查找 | O(n * log n * log V)，V 为数组最大值 | O(log V) | `02-search/LeetCode_3605数字的最小稳定因子.cpp` |
+| 5 | 最小化每日刷题负担 (Minimize Daily Problem Load) | 二分查找 | O(n log S)，S 为总耗时 | O(1) | `02-search/LeetCode_LCP 12小张刷题计划.cpp` |
+| 6 | 环形链表 (Linked List Cycle) | 链表 | O(n) | O(1) | `03-linked-list/03-linked-list_has_cycle.cpp` |
+| 7 | 反转链表 (Reverse Linked List) | 链表 | O(n) | O(1) | `03-linked-list/linked-list.cpp` |
+| 8 | 用栈实现队列 (Implement Queue using Stacks) | 栈 | push O(1)，pop 均摊 O(1) | O(n) | `04-stack-queue/stack_to_queue.cpp` |
+| 9 | 二叉树的层序遍历 (Binary Tree Level Order Traversal) | 树 | O(n) | O(n) | `05-tree/05-tree_level_order.cpp` |
+| 10 | 二叉树的前序遍历 (Binary Tree Preorder Traversal) | 树 | O(n) | O(h)，h 为树高 | `05-tree/treepreorder.cpp` |
+| 11 | 岛屿数量 (Number of Islands) | 图 | O(m * n) | O(m * n)（递归栈） | `06-graph/num_islands.cpp` |
+| 12 | 爬楼梯 (Climbing Stairs) | 动态规划 | O(n) | O(1) | `07-dp/07-dp_climb_stairs.cpp` |
+| 13 | 最长公共子序列 (Longest Common Subsequence) | 动态规划 | O(m * n) | O(m * n) | `07-dp/dplcs.cpp` |
 
 <!-- PROBLEM_TABLE_END -->
